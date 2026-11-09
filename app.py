@@ -1,5 +1,10 @@
+from flsk import Flask
+import socket
+import datetime
+
 # Creamos la aplicación web
 app = Flask(__name__)
+
 # Ruta principal: lo que se ve al entrar en la URL raíz ("/")
 @app.route("/")
 def home():
