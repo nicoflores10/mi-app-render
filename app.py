@@ -1,7 +1,7 @@
 from flask import Flask
 import socket
 import datetime
-
+#ESTE ES EL COMENTARIO DE DIEGO Y NICOLAS
 # Creamos la aplicación web
 app = Flask(__name__)
 
